@@ -85,3 +85,15 @@ else:
     c = a
 
 print("Значення третьої змінної c:", c)
+
+# Завдання 8
+
+def compute_y(x):
+    if -2.4 <= x <= 5.7:
+        return x**2 / 4
+    else:
+        return 0
+
+x = float(input("Enter a real number: "))
+y = compute_y(x)
+print(f"Y = {y}")
